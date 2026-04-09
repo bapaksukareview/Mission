@@ -1,3 +1,5 @@
+package ca.sheridancollege.beans;
+
 public class Mission {
 
     private Long id;
@@ -47,17 +49,4 @@ public class Mission {
     public void setGadget2(String gadget2) {
         this.gadget2 = gadget2;
     }
-}
-	
-	// constructor with fields for later use in the test
-	/*
-	public Mission(Long id, String agent, String title, String gadget1, 
-			String gadget2) {
-		this.id = id;
-		this.agent = agent;
-		this.title = title;
-		this.gadget1 = gadget1;
-		this.gadget2 = gadget2;
-	}	
-	*/
 }
