@@ -14,6 +14,26 @@ public class Mission {
 	private String title;
 	private String gadget1;
 	private String gadget2;
+
+public Long getId() {
+    return id;
+}
+
+public String getAgent() {
+    return agent;
+}
+
+public String getTitle() {
+    return title;
+}
+
+public String getGadget1() {
+    return gadget1;
+}
+
+public String getGadget2() {
+    return gadget2;
+}
 	
 	// constructor with fields for later use in the test
 	/*
